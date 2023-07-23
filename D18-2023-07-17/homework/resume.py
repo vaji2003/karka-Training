@@ -53,32 +53,19 @@ my_resume={
                  'pincode':"629852",
                  'District':'TamilNadu',
                  'country':'India'}}} 
-
-
-# # for key,values in my_resume.items():
-# #    print(my_resume['Education_qualification'])
+# for key,values in my_resume.items():
+#    print(my_resume['Education_qualification'])
 
 for i in my_resume['personal_details']:
     if i=='address':
         for j in my_resume['personal_details'][i]:
            print(f"{j}:{my_resume['personal_details']['address'][j]}")
-# for j in my_resume['personal_details']:
 
+# for i in my_resume['personal_details']:
+#     print(f"{my_resume['personal_details'][i]}")
 
-# # for i in my_resume['personal_details']:
-# #     print(f"{my_resume['personal_details'][i]}")
+# for i in my_resume['Experiance']:
+#     print([i]['role'])
 
-# # for i in my_resume['Experiance']:
-# #     print([i]['role'])
-
-
-
-
-# # print(my_resume['personal_details']['address'])
-# # print(my_resume['personal_details']['address']['street_name'])
-
-
-
-# name='vajeeha'
-# dic_name={'name':name}
-# print(dic_name)
+# print(my_resume['personal_details']['address'])
+# print(my_resume['personal_details']['address']['street_name'])

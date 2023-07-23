@@ -11,17 +11,14 @@ def player(players):
           count+=1
         if(values['hat_trick'])>5:
            hatrrick.append(values['name'])
-           
-            #   print(values['name'])
     print(f"No of players = {count}.")
-    print(hatrrick
-         
+    print(hatrrick)
+    for player in players:
+      bat_scores=(player['top_batting_score'])
+      # print(bat_scores)
+      top_player=player['top_batting_score'][0]
+    for bat_score in bat_scores:
+       if bat_score>top_player:
+          top_player=bat_score
+          print(top_player)
 player(players)
-# def value(players):
-#    total=0
-#    for value in players:
-#     a=int(value['top_batting_score'])
-#     if a>total:
-#         total=a
-#    print(f"\nTop batting score is {total}")
-# value(players)

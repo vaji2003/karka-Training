@@ -8,12 +8,12 @@
 # space after charcter
 # print(word.center(100))
 
-txt="He buyed a Apple,in a Apple shop,"
+# txt="He buyed a Apple,in a Apple shop,"
 # no.of.times the specified value(apple) appears
 # print(txt.count("Apple"))
 
-# encoded version of string                               (doubt)
-print(txt.encode())
+# encoded version of string                             
+# print(txt.encode())
 
 # it returns true if the string ends with specified value(,)
 # print(txt.endswith(","))
@@ -26,15 +26,15 @@ print(txt.encode())
 # print(txt.find("shop"))
 
 # shop="This Black dress is ${Ruppes:.1f}only"
-# # #  format the specified value insert condition in blaceholder      (doubt)
+# # #  format the specified value insert condition in blaceholder     
 # print(shop.format(Ruppes=200))
 
 #  txt={'a': "I am",'y':"fever"}
-# return dictionary key value                            (doubt)
+# return dictionary key value                           
 # print("{a} Suffering from {y}".format_map(txt))
 
 
-# txt="Habibi come to dubai"
+# txt="Hello this is Riya"
 # it return the index position of the specified value
 # print(txt.index("dubai"))
 
@@ -68,7 +68,7 @@ print(txt.encode())
 # check the given string contain only numbers (15362574) (true or false)
 # print(txt.isnumeric())
 
-# returns true if the all the charcter r printable            (doubt)
+# returns true if the all the charcter r printable           
 # print(txt.isprintable()) 
 
 # returns true if the all the charcter r whitespces
@@ -105,7 +105,7 @@ print(txt.encode())
 
 
 # txt="Hi Riya"
-# set=txt.maketrans("R","M")                   (doubt)
+# set=txt.maketrans("R","M")                  
 # print(txt.translate(set))
 
 # str="OH Its very cold"
@@ -128,7 +128,7 @@ print(txt.encode())
 # print(x,"is a horror movie")
 
 # txt="She want to buy a jwellery,in a jwellery shop"         
-# returns tuple whre str is partitioned into 3 parts                   (doubt)                                                    #  (doubt)
+# returns tuple whre str is partitioned into 3 parts                                                                    #  (doubt)
 # print(txt.rpartition("jwellery"))
 
 
@@ -136,7 +136,4 @@ print(txt.encode())
 # it splits a str in to a list
 # x=txt.rsplit(",")
 # print(x)
-
-
-txt="   vajeeha   "
 

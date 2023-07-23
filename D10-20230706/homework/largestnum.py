@@ -7,7 +7,6 @@
 
 list=[2,6,9,1,5]
 empty=0
-
 def largest(list,empty):
     for num in list:
         if num>empty:
